@@ -46,22 +46,16 @@ if (phone1.length === 9) {
     console.log("phone3 is valid");
 }
 
+ var quantity = "25";
+    var number = 6;
+    var pressure;
+    var temperature = null;
 
-a) var NAME; // case sensitive
-
-b) var $num1; // valid
-
-c) var typeof; // valid
-
-d) var first-name; // invalid because it has a dash (only underscores are allowed)
-
-e) var attempt_2; // valid
-
-f) var 2ndAttempt; // invalid because it starts with a number
-
-g) var full name; // invalid because it contains a white space
-
-
-
-
+    console.log(quantity += quantity); // 2525
+    console.log( (7+5) / number + 2 ); // 4
+    console.log(pressure); // undefined
+    console.log(temperature); // null
+    console.log(typeof pressure); // undefined
+    console.log(typeof temperature); // object
+    
 
