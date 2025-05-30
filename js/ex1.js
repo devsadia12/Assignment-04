@@ -34,6 +34,17 @@ document.getElementById("url_4").innerHTML = add_url;
 var power = Math.pow(32,6);
 console.log(power);
 
+var phone1 = "988866552";
+var phone2 = "99087612366";
+var phone3 = 876543123;
+phone3.toString();
+if (phone1.length === 9) {
+    console.log("phone1 is valid");
+}else if(phone2.length === 9) {
+    console.log("phone2 is valid");
+}else if(phone3.length === 9) {
+    console.log("phone3 is valid");
+}
 
 
 
