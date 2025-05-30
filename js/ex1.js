@@ -31,5 +31,9 @@ var add_url = url3.replace( "https://" , " " );
 //console.log(add_url);
 document.getElementById("url_4").innerHTML = add_url;
 
+var power = Math.pow(32,6);
+console.log(power);
+
+
 
 
